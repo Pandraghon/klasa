@@ -45,11 +45,17 @@ const { Client } = require('klasa');
 new Client().login('PAST_YOUR_TOKEN_HERE');
 ```
 
-This wil generate a bunch of empty folders
+> **TODO :** Replace `PAST_YOUR_TOKEN_HERE` with your own bot token.
+
+To start your bot, go back in the terminal and write `node .`. This will also generate a bunch of empty folders (commands, monitors, ...)
+
+> **Note :** Instead of using `node .`you could use a process manager like [pm2](http://pm2.keymetrics.io/)
 
 {first_launch img}
 
 You should be able to do `@BotName ping`
+
+> **TODO :** Replace `BotName` the actual bot's name
 
 {first_ping img}
 
